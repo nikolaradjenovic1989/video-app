@@ -1,0 +1,17 @@
+The challenge is to create a lightweight React App with 2 video players.
+
+Each player should play the same video and stay locked in frame sync (each player shows the same frame).
+App should work in stopped, single-step, and play modes.
+
+The players should each have their native react transport controls.
+Using the controls on one player should cause the other player to sync to the position commanded by the first player.
+The app should also include a super control that simultaneously commands both players to do the same thing:
+play, stop, etc.
+
+A YouTube video is adequate to test the app. Animation video (anime) makes good test material as comparing
+side-by-side video players for the same content is relatively easy.
+
+The selected video file should be of 720p+ resolution.
+
+While this challenge may seem simple in principle, you will need to adopt a synchronization strategy
+to keep the players in sync.
